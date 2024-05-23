@@ -11,6 +11,10 @@ section{
     padding: 1.5rem 7%;
     margin-top: -20px;
 }
+.navbar a:hover{
+    color: #ce0033;
+    border-bottom:1px solid #ce0033 ;
+}
 .header #logo {
     width: 10%;
 }
@@ -377,15 +381,32 @@ border-radius: 15px;
     color: #ce0033;
     text-align: center;
 }
+#recrutement h2{
+    color: #ce0033;
+}
 #recrutement .recrute-max{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 80%);
     gap: 5px;
     
 }
-#recrutement .recrute-max .recrute-right{
-    background-color: ;
+.recrute-right div img{
+    width: 15px;
 }
+.recrute-right{
+    display: flex;
+    justify-content: space-between;
+}
+.recrute-minmax{
+    background-color: #F9F4F4;
+    width: 80%;
+    padding: 20px;
+}
+/* #recrutement .recrute-max .recrute-right{
+    background-color: #F9F4F4;
+
+} */
 .formulaire input[type="text"], input[type="email"], input[type="number"] {
     padding: 15px;
     width: 25%;
